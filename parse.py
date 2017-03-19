@@ -4,7 +4,6 @@ from Tkinter import *
 from ScrolledText import ScrolledText
 import requests, re, threading
 
-
 def replite(ID):
     varl.set('正在获取第%d页内容' % (ID / 25 + 1))
     html = 'https://movie.douban.com/top250?start=' + str(ID)
